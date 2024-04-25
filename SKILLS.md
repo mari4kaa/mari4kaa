@@ -54,7 +54,7 @@
 | 🟦 Domain-specific languages   | ⬜ Hidden class       | 🟩 Async Iterator    |                          |
 | 🟩 Multi-paradigm programming  | 🟩 Object form        |                      |                          |
 | ⬜ Metaprogramming             | 🟩 instance           |                      |                          |
-| ⬜ Actor model                 | ⬜ Introspection      |                      |                          |
+| 🟩 Actor model                 | ⬜ Introspection      |                      |                          |
 |                                | ⬜ Reflection         |                      |                          |
 
 ## Asynchronous programming
@@ -66,7 +66,7 @@
 | 🟩 Promise             | 🟩 nextTick                    | 🟩 try..catch       | ⬜ Rx.js                 |
 | 🟩 Async function      | 🟦 AbortController             | 🟩 Non-blocking     | 🟩 Sequential async      |
 | 🟩 await               | 🟩 Promise unhandled rejection | 🟩 Async I/O        | 🟩 Parallel async        |
-| 🟩 Generator           | 🟩 Promise double resolve      | 🟦 Pattern Reactor  | 🟩 Promise.all           |
+| 🟩 Generator           | 🟩 Promise double resolve      | 🟩 Pattern Reactor  | 🟩 Promise.all           |
 | 🟩 Async Generator     | 🟦 child_process               | ⬜ CAS operations   | 🟩 Promise.allSettled    |
 | 🟩 Async Iterator      | 🟦 worker_threads              | ⬜ epoll            | 🟩 Promise.race          |
 | 🟩 Thenable            | 🟦 Atomics                     | ⬜ kqueue           | 🟩 Promise.any           |
@@ -76,7 +76,7 @@
 | 🟩 Asynchronous Queue  | 🟩 Callback hell               | 🟩 Race conditions  | 🟩 callbackify           |
 | ⬜ Future              | 🟩 Promise hell                | 🟩 Dead locks       | 🟩 promisify             |
 | ⬜ Deferred            |                                | 🟩 Live locks       | ⬜ IPC                   |
-| 🟩 Observer            |                                | ⬜ Actor Model      | ⬜ Channel API           |
+| 🟩 Observer            |                                | 🟩 Actor Model      | ⬜ Channel API           |
 | 🟩 Async Collector     |                                |                     | 🟩 Revealing Constructor |
 | 🟩 Coroutine           |                                |                     |                          |
 | ⬜ Goroutine           |                                |                     |                          |
@@ -89,7 +89,7 @@
 | 🟩 Event Loop        | 🟦 CPU bound tasks           | 🟩 TCP/SSL        | 🟩 Testing       | 🟩 Resource leaks    |
 | 🟩 commonjs          | 🟦 Memory bound tasks        | 🟩 UDP            | 🟩 CI/CD         | 🟩 Blocking code     |
 | 🟦 ECMA modules      | 🟩 Multilayer approach       | 🟩 TLS            | 🟩 Readable      | 🟩 Data race         |
-| 🟦 Network API       | 🟩 Separation of concerns    | 🟦 Websocket      | 🟩 Writable      | 🟦 Graceful Shutdown |
+| 🟦 Network API       | 🟩 Separation of concerns    | 🟩 Websocket      | 🟩 Writable      | 🟦 Graceful Shutdown |
 | ⬜ Addons            | 🟦 Inversion of control      | ⬜ SSE            | 🟩 Transform     | 🟩 Dependencies      |
 | ⬜ N-API             | 🟩 Dependency injection      | ⬜ HTTP/3 (QUIC)  | ⬜ back pressure |                      |
 | ⬜ Webassembly       | 🟩 GRASP for JS and Node.js  | ⬜ Long polling   | 🟩 Buffer        |                      |
@@ -114,7 +114,7 @@
 
 - ⬜ Cybersecurity
 - ⬜ TDD
-- ⬜ Quality
+- 🟩 Quality
 - ⬜ Mobile applications
 - ⬜ High-performance computing
 - ⬜ Edge computing
